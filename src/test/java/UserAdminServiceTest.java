@@ -19,6 +19,7 @@ class UserAdminServiceTest {
                 NullPointerException.class,
                 () -> new UserAdminService(null)
         );
+        //then
         assertEquals("Mapper must not be null", exception.getMessage());
     }
 
