@@ -13,6 +13,8 @@ class UserAdminServiceTest {
     @Test
     @DisplayName("Ошибка при передаче null в конструктор")
     void shouldThrowExceptionWhenMapperIsNull() {
+        //given
+        //when
         NullPointerException exception = assertThrows(
                 NullPointerException.class,
                 () -> new UserAdminService(null)
