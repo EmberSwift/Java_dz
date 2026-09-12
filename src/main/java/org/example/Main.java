@@ -20,9 +20,11 @@ public class Main {
                 )
         );
 
-        // Сервис собирается из компонентов
-        AdminUserMapper mapper = new DefaultAdminUserMapper();
-        UserAdminService service = new UserAdminService(mapper);
+        // Инициализация контекста приложения
+        AppContext context = AppContext.getInstance();
+
+        // Получение сервиса из контекста вместо создания через new
+        UserAdminService service = context.getUserAdminService();
 
         System.out.println("Все пользователи для админ-панели:");
         UserFilter noFilter = new UserFilter(null, false);
