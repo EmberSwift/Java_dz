@@ -1,4 +1,4 @@
-package org.example;
+package org.example.domain;
 
 // Настройки фильтрации для поиска пользователей
 public record UserFilter(

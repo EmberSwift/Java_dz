@@ -1,4 +1,9 @@
-package org.example;
+package org.example.infrastructure;
+
+import org.example.application.AdminUserMapper;
+import org.example.application.AdminUserView;
+import org.example.domain.AccountStatus;
+import org.example.domain.User;
 
 //добавлен класс, реализующий указанный интерфейс
 public class DefaultAdminUserMapper implements AdminUserMapper {

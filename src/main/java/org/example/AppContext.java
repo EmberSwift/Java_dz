@@ -1,5 +1,9 @@
 package org.example;
 
+import org.example.application.AdminUserMapper;
+import org.example.application.UserAdminService;
+import org.example.infrastructure.DefaultAdminUserMapper;
+
 public final class AppContext {
     private static AppContext instance;
 

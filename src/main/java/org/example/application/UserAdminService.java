@@ -1,6 +1,8 @@
-package org.example;
+package org.example.application;
 
-
+import org.example.domain.User;
+import org.example.domain.UserFilter;
+import org.example.domain.UserSpecific;
 
 import java.util.Comparator;
 import java.util.List;

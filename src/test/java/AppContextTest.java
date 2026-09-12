@@ -1,7 +1,7 @@
-import org.example.AdminUserMapper;
+import org.example.application.AdminUserMapper;
 import org.example.AppContext;
-import org.example.DefaultAdminUserMapper;
-import org.example.UserAdminService;
+import org.example.infrastructure.DefaultAdminUserMapper;
+import org.example.application.UserAdminService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.domain;
 
 //Records для моделей данных
 public record User(

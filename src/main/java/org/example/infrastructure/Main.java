@@ -1,4 +1,11 @@
-package org.example;
+package org.example.infrastructure;
+
+import org.example.AppContext;
+import org.example.application.AdminUserView;
+import org.example.application.UserAdminService;
+import org.example.domain.AccountStatus;
+import org.example.domain.User;
+import org.example.domain.UserFilter;
 
 import java.time.LocalDate;
 import java.util.List;

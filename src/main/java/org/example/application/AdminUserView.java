@@ -1,4 +1,4 @@
-package org.example;
+package org.example.application;
 
 //отображение в админ-панели
 public record AdminUserView(
